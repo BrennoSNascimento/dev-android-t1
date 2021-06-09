@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@id/titleFragment">
+    app:startDestination="@id/fragment_tab">
 
     <fragment
         android:id="@+id/titleFragment"
@@ -70,4 +70,8 @@
         android:name="com.example.android.navigation.RulesFragment"
         android:label="fragment_rules"
         tools:layout="@layout/fragment_rules" />
+    <fragment
+        android:id="@+id/fragment_tab"
+        android:name="com.example.android.navigation.Fragment_tab"
+        android:label="Fragment_tab" />
 </navigation>
